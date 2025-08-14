@@ -23,13 +23,13 @@ public class Main {
             System.out.print("Elija una opción (1-6): ");
             String valor = sc.nextLine();
             int opciones = Integer.parseInt(valor);
-            if (opciones < 1 || opciones >git sta 6) {
+            if (opciones < 1 || opciones > 6) {
                 System.out.println("Error: Ingrese un número del 1 al 6");
                 continue;
             }
             if (opciones == 6) {
                 salir = true;
-                System.out.println("¡Saliendo de la aplicación -----!");
+                System.out.println("¡Saliendo de la aplicación este es un cambio!");
                 continue;
             }
 
